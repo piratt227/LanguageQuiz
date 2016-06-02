@@ -13,10 +13,10 @@
 		93F8CEFF1CFF5CA60059AD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F8CEFD1CFF5CA60059AD95 /* LaunchScreen.storyboard */; };
 		93F8CF0A1CFF5CA60059AD95 /* LanguageQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8CF091CFF5CA60059AD95 /* LanguageQuizTests.swift */; };
 		93F8CF151CFF5CA60059AD95 /* LanguageQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8CF141CFF5CA60059AD95 /* LanguageQuizUITests.swift */; };
-		93F8CF231CFF5CB10059AD95 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8CF221CFF5CB10059AD95 /* Country.swift */; };
 		93F8CF251CFF5CE50059AD95 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8CF241CFF5CE50059AD95 /* QuizViewController.swift */; };
 		93F8CF271CFF5D0C0059AD95 /* QuizViewControllerFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8CF261CFF5D0C0059AD95 /* QuizViewControllerFunctions.swift */; };
 		93F8CF291CFF5D580059AD95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F8CF281CFF5D580059AD95 /* Main.storyboard */; };
+		93F8CF751D00D5F90059AD95 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8CF741D00D5F90059AD95 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,10 @@
 		93F8CF101CFF5CA60059AD95 /* LanguageQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F8CF141CFF5CA60059AD95 /* LanguageQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageQuizUITests.swift; sourceTree = "<group>"; };
 		93F8CF161CFF5CA60059AD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93F8CF221CFF5CB10059AD95 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = ../Country.swift; sourceTree = "<group>"; };
 		93F8CF241CFF5CE50059AD95 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		93F8CF261CFF5D0C0059AD95 /* QuizViewControllerFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewControllerFunctions.swift; sourceTree = "<group>"; };
 		93F8CF281CFF5D580059AD95 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93F8CF741D00D5F90059AD95 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		93F8CEF31CFF5CA60059AD95 /* LanguageQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				93F8CF221CFF5CB10059AD95 /* Country.swift */,
+				93F8CF741D00D5F90059AD95 /* Country.swift */,
 				93F8CEF41CFF5CA60059AD95 /* AppDelegate.swift */,
 				93F8CF241CFF5CE50059AD95 /* QuizViewController.swift */,
 				93F8CF261CFF5D0C0059AD95 /* QuizViewControllerFunctions.swift */,
@@ -266,9 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F8CEF71CFF5CA60059AD95 /* ViewController.swift in Sources */,
-				93F8CF231CFF5CB10059AD95 /* Country.swift in Sources */,
 				93F8CEF51CFF5CA60059AD95 /* AppDelegate.swift in Sources */,
 				93F8CF251CFF5CE50059AD95 /* QuizViewController.swift in Sources */,
+				93F8CF751D00D5F90059AD95 /* Country.swift in Sources */,
 				93F8CF271CFF5D0C0059AD95 /* QuizViewControllerFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +488,7 @@
 				93F8CF1B1CFF5CA60059AD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93F8CF1C1CFF5CA60059AD95 /* Build configuration list for PBXNativeTarget "LanguageQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				93F8CF1E1CFF5CA60059AD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93F8CF1F1CFF5CA60059AD95 /* Build configuration list for PBXNativeTarget "LanguageQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				93F8CF211CFF5CA60059AD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
